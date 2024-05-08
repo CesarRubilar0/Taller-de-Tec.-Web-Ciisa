@@ -1,0 +1,73 @@
+body{
+    background-image: url(/Imagenes/Perrito-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fila {
+    display: flex;
+}
+
+/* nav bar*/
+.navBar{
+    background-color: #334d4d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img_navBar{
+    width: 90px;
+    height: 90px;
+    background-color: #334d4d
+}
+.img_navBar img{
+    height: 100%;
+}
+
+
+.Enlace_navbar{
+    height: 90px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 250px;
+}
+.Enlace_navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+.Enlace_navbar a:hover{
+    color: rgb(151, 145, 145);
+    text-decoration: none;    
+    background-color: rgba(128, 128, 128, 0.219);
+    border-radius: 20px;
+    
+    
+}
+
+/* portada */
+
+.hola{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 600px;
+    padding-left: 40px;
+    align-items: center;
+    border: solid 4px black;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+.hijo{
+    border: solid 3px black;
+    
+}
+
+/* Pie de Pagina */
+
+
+
